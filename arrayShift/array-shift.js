@@ -6,5 +6,3 @@ function instertShiftArray(arr,val){
 }
 
 return newArr;
-    
-
