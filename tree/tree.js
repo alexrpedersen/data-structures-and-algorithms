@@ -1,5 +1,6 @@
 'use strict';
 
+
 class Node {
     constructor(data){
         this.data = data;
@@ -30,3 +31,21 @@ class Node {
     }
 } 
 
+class BinarySearchTree{
+    constructor(){
+        this.root = null;
+    }
+    add(data){
+        let newNode = new Node(data);
+
+        if(this.root === null)
+            this.root = newNode;
+        
+        else 
+            this.insertNode(this.root, newNode);
+    }
+
+    
+
+
+}
